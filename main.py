@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup as bs
+from multiprocessing.dummy import Pool as ThreadPool
 
 #URL_START - стартовая страница региона по единому округу
 URL_START = 'http://www.tyva.vybory.izbirkom.ru/region/tyva?action=show&root_a=172000050&vrn=2172000576653&region=17' \
